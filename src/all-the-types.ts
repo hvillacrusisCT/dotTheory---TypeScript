@@ -68,6 +68,7 @@ let printFunction: () => void = function() {
 // Function Types & Callbacks
 function fetchData(userId: number, callback: (data: number) => void): void {
   // fetch data here then call callback
+  console.log(userId, callback)
 }
 
 // The "unknown" Type
